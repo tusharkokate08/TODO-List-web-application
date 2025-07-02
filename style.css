@@ -1,4 +1,3 @@
-/* Reset and base styling */
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +5,8 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(to right, white, lightyellow);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,10 +14,9 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: lightgray;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 500px;
 }
@@ -45,11 +43,10 @@ form {
 
 button {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: lightseagreen;
   color: white;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
   transition: background 0.3s;
 }
 
@@ -84,7 +81,6 @@ ul#task-list li button {
   padding: 6px 10px;
   border-radius: 4px;
   color: white;
-  cursor: pointer;
 }
 
 ul#task-list li button:hover {
